@@ -14,7 +14,7 @@ Here, key is 'three' and value is '3'
 where, 'd' means dicitonary.
 
 
-# Note: Dictionary doesn't care about the order of reperesenting output, means it does not provide output in a sorted manner. But still sorting can be done in dictionary (shown in dictionary file at line number 84)
+# Note: Dictionary doesn't care about the order of reperesenting output, means it does not provide output in a sorted manner. But still sorting can be done in dictionary (shown in dictionary.py file at line number 84)
 
 
 
