@@ -5,7 +5,7 @@ the "d" here is dictionary and the curley brackets {} contains key values.
 the keys in dictionary are basically srtings or numbers.
 the following dictionary is empty because there is no key value.
 
-# note: Dictioanry doesn't care about the order reperesenting output
+# note: Dictionary doesn't care about the order of reperesenting output, means it does not provide output in a sorted manner.
 
 d ={} # this is an empty dictionary
 
