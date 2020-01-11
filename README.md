@@ -5,6 +5,8 @@ the "d" here is dictionary and the curley brackets {} contains key values.
 the keys in dictionary are basically srtings or numbers.
 the following dictionary is empty because there is no key value.
 
+# note: Dictioanry doesn't care about the order reperesenting output
+
 d ={} # this is an empty dictionary
 
 # Dictionary
@@ -12,8 +14,7 @@ Here "yash" is a key and its value is 10
 
 d["yash"] = 10
 
-# A key’s value can be a number, a string, a list, or even another dictionary. 
-# note: Dictioanry doesn't care about the order reperesenting output 
+A key’s value can be a number, a string, a list, or even another dictionary. 
 
 Apple = {'color':'red', 'quantity':1}
 print(Apple['color'])
