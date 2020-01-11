@@ -6,7 +6,9 @@ the keys in dictionary are basically srtings or numbers.
 the following dictionary is empty because there is no key value.
 
 d ={}  this is an empty dictionary
+
 d['three'] = 3 its a non empty dictionary having key-value pair. 
+
 where, 'd' means dicitonary.
 Here, key is 'three' and value is '3'
 
