@@ -5,9 +5,14 @@ the "d" here is dictionary and the curley brackets {} contains key values.
 the keys in dictionary are basically srtings or numbers.
 the following dictionary is empty because there is no key value.
 
+d ={}  this is an empty dictionary
+d['three'] = 3 its a non empty dictionary having key-value pair. 
+where, 'd' means dicitonary.
+Here, key is 'three' and value is '3'
+
 # Note: Dictionary doesn't care about the order of reperesenting output, means it does not provide output in a sorted manner. But still sorting can be done in dictionary (shown in dictionary file at line number 84)
 
-d ={} # this is an empty dictionary
+
 
 # Dictionary
 Here "yash" is a key and its value is 10
