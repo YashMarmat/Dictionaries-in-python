@@ -1,5 +1,6 @@
+# key-value pairs in dictionary
+# simple introducion
 
-'''
 info = {'first_name':'yash','last_name':'marmat','age':22,'city':'delhi'}
 print('Full Name: ' + info['first_name'] + ' ' + info['last_name'])
 
@@ -10,8 +11,8 @@ print(info)
 
 # empty dictionary
 
-info2 = {}
-info2['name'] = 'sam'
+info2 = {}   # empty dictionary
+info2['name'] = 'sam'      # adding new key-value pair in an empty dictionary
 info2['location'] = 'paris'
 print(info2)
 
@@ -57,7 +58,7 @@ data = bio.get('interest','no such key-value pair is present')
 print(data)
 '''
 
-# question 1:
+# question 1: Introducion
 '''
 person = {
     'first':'yash',
@@ -75,7 +76,7 @@ print(b)
 print(c.title())
 '''
 
-# question 2:
+# question 2: Guessing numbers
 '''
 fav = {
     'sam':5,
@@ -90,7 +91,7 @@ print("Jack's favourite number : " + str(fav['jack']))
 print("Sid's favourite number : " + str(fav['sid']))
 '''
 
-# question 4:
+# question 4: Printing keys and values only
 '''
 glossary = {
     'loops':'for looping',
@@ -103,7 +104,7 @@ glossary = {
 for k,v in glossary.items():
     print(k + ': ' + v) 
 '''
-# question 6:
+# question 6: Favourite language poll
 '''
 fav_lang = {
     'sam':'python',
@@ -122,7 +123,8 @@ for each in names:
     else:
         print(each.title() + ' thanks for participating')'''
 
-# question 7: Method 1
+# question 7: Introduction of multiple person (using nested dictionary) 
+# Method 1
 '''
 people = []    # an empty list
 
@@ -180,7 +182,7 @@ for k,v in people.items():
 # note: if you are extracting the information of a dictionary from a list, then you dont need key-value pairs while looping.
 # note: if you are extracting the information from a dictionary by using key-value pairs, then you do not need to specify a list.
 
-# question 8
+# question 8: Pet details
 '''
 pet_info = []
 
@@ -206,7 +208,7 @@ for each in pet_info:
     print('Animal Type: ' + each['pet type'].title())
     print("Owner's Name: " + each['owner name'].title() + '\n') '''
 
-# question 9
+# question 9: Favourite places poll
 '''
 favourite_places = {
     'edward':['INDIA', 'USA', 'CHINA'],
@@ -219,7 +221,7 @@ for k,v in favourite_places.items():
     for each in v:
         print('-> ' + each)
 '''
-# question 10
+# question 10: Favourite numbers poll
 '''
 fav = {
     'sam':[5,8,10,15],
