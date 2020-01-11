@@ -7,7 +7,7 @@ the following dictionary is empty because there is no key value.
 
 d ={}  this is an empty dictionary
 
-d['three'] = 3 its a non empty dictionary having key-value pair. 
+d['three'] = 3  its a non empty dictionary having key-value pair. 
 
 Here, key is 'three' and value is '3'
 
