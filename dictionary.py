@@ -57,6 +57,40 @@ print(bio['interest'])  <-- this will give keyerror, so use below code
 data = bio.get('interest','no such key-value pair is present')
 print(data)
 '''
+# Sorting in dictionary
+# Also, Dictionary and list together
+
+f = {
+    'bob':'python',
+    'harry':'ruby',
+    'jack':'c',
+    'stan':'java',
+    }
+
+list1 = ['jack','stan']
+for each in f.keys():
+    print(each.title())
+    
+    if each in list1:
+        print('hi ' + each.title()+' you said your fav lang is ' +f[each].title()+ '!')
+
+note: that in last line the 'each' will work for 'values' as well, just mention it with dictionary name.
+You can also use the keys() method to find out if a particular person was polled. 
+means if a person is not present in list we can send a message like,
+
+if 'peter' not in f.keys():
+    print('Peter please mention your fav language')
+
+for every in sorted(f):                  # sorting in dictionary
+    print('Thanks ' + every.title() + ' for taking the poll')  
+
+output: 
+Thanks Bob for taking the poll
+Thanks Harry for taking the poll
+Thanks Jack for taking the poll
+Thanks Stan for taking the poll
+
+
 
 # question 1: Introducion
 '''
