@@ -108,3 +108,5 @@ favorite_languages = {
     }
     
  * see dictionary file for more :)
+
+* book reference: Python Crash Course by Eric Matthes
