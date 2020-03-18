@@ -107,6 +107,6 @@ favorite_languages = {
     'phil': 'python',    
     }
     
- * see dictionary file for more :)
+* more on python dictionaries here, https://github.com/YashMarmat/Dictionaries-in-python/blob/master/dictionary.py
 
 * book reference: Python Crash Course (by Eric Matthes)
